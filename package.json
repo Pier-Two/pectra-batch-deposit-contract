@@ -1,0 +1,38 @@
+{
+  "name": "@piertwo/contracts",
+  "main": "index.ts",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "@openzeppelin/contracts-upgradeable": "^5.2.0",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "@types/lodash": "^4.17.16",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18",
+    "lodash": "^4.17.21",
+    "solmate": "^6.8.0",
+    "ts-node": "^10.9.2",
+    "viem": "^2.23.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ignition": "^0.15.10",
+    "@nomicfoundation/hardhat-ignition-viem": "^0.15.10",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-viem": "^2.0.6",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "axios": "^1.8.4",
+    "chai": "4",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "hardhat-chai-matchers-viem": "^2.0.8",
+    "hardhat-deploy": "^0.14.0",
+    "solidity-bytes-utils": "^0.8.3",
+    "typechain": "^8.3.2"
+  }
+}
